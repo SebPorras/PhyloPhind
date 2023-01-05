@@ -67,7 +67,7 @@ Output:
   - MIN_SEQS: -m, --min_seqs
   filters groups that are outliers, defaults to 0
   
-  ROW_NUM: -r , --row_num 
+  - ROW_NUM: -r , --row_num 
   Choose group to filter on, sorted based on largest groups indexed at 0, defaults to zero(largest group)
 
 # Changing location of output
