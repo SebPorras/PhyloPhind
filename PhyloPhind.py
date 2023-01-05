@@ -30,6 +30,7 @@ def remove_outliers(data_col: str, entry_limit=0) -> dict:
         f.write('\n')
         f.write(f'Threshold: {THRESHOLD} \n')
         f.write(f'Min seqs: {MIN_SEQS} \n')
+        f.write(f'Min seqs: {ROW_NUM} \n')
         f.write('\n')
         families = df['Protein_families'].dropna().unique().tolist()
         f.write('-Inital number of sequences \n')
