@@ -58,6 +58,7 @@ python PhyloPhind.py --help
 
 Output: 
 
+```
   - EC_NUM: -e , --ec_num
   -> Enter as 3_5_2_6 etc.
   
@@ -69,13 +70,16 @@ Output:
   
   - ROW_NUM: -r , --row_num 
   -> Choose group to filter on, sorted based on largest InterPro tag groups indexed at 0, defaults to zero(largest group)
+```
 
 4. A log of the process will be saved to ./filtering_logs/EC_NUM_filtering_log.txt
+
 ```
 EC Group: 3_5_2_6 
 
 Threshold: 0.15 
 Min seqs: 1 
+Row num: 1
 
 -Inital number of sequences 
 >129 
