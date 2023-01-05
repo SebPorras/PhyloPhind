@@ -59,16 +59,16 @@ python PhyloPhind.py --help
 Output: 
 
   - EC_NUM: -e , --ec_num
-  Enter as 3_5_2_6 etc.
+  -> Enter as 3_5_2_6 etc.
   
   - THRESHOLD: -t, --threshold
-  Jaccard threshold between 0 and 1
+  -> Jaccard threshold between 0 and 1
   
   - MIN_SEQS: -m, --min_seqs
-  filters groups that are outliers, defaults to 0
+  -> filters groups that are outliers, defaults to 0
   
   - ROW_NUM: -r , --row_num 
-  Choose group to filter on, sorted based on largest groups indexed at 0, defaults to zero(largest group)
+  -> Choose group to filter on, sorted based on largest groups indexed at 0, defaults to zero(largest group)
 
 # Changing location of output
 
