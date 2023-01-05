@@ -52,10 +52,23 @@ python PhyloPhind.py -e 3_5_2_6 -t 0.2 -m 1 -r 1
 
 3. For help, run
 
-'''
+```
 python PhyloPhind.py --help
-'''
+```
 
+ -h, --help show this help message and exit
+  
+  -e EC_NUM, --ec_num EC_NUM
+  Enter as 3_5_2_6 etc.
+  
+  -t THRESHOLD, --threshold THRESHOLD
+  Jaccard threshold between 0 and 1
+  -m MIN_SEQS, --min_seqs MIN_SEQS
+  filters groups that are outliers, defaults to 0
+  
+  -r ROW_NUM, --row_num ROW_NUM
+  Choose group to filter on, sorted based on largest groups indexed at 0, defaults to zero(largest
+                        group)
 # Changing location of output
 
 All paths can by changing the path constants at the bottom of PhyloPhind.py
