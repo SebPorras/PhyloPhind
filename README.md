@@ -70,6 +70,34 @@ Output:
   - ROW_NUM: -r , --row_num 
   -> Choose group to filter on, sorted based on largest InterPro tag groups indexed at 0, defaults to zero(largest group)
 
+4. A log of the process will be saved to ./filtering_logs/EC_NUM_filtering_log.txt
+```
+EC Group: 3_5_2_6 
+
+Threshold: 0.15 
+Min seqs: 1 
+
+-Inital number of sequences 
+>129 
+-Inital families present 
+>Metallo-beta-lactamase superfamily, Class-B beta-lactamase family 
+>Class-A beta-lactamase family 
+>Class-C beta-lactamase family 
+>Metallo-beta-lactamase superfamily 
+>Class-D beta-lactamase family 
+
+-Number of sequences after filtering 
+>80 
+-Families present after filtering 
+>Class-A beta-lactamase family 
+>Class-C beta-lactamase family 
+>Class-D beta-lactamase family 
+
+-Number of sequences after family sampling 
+>81
+```
+
+
 # Changing location of output
 
 All paths can by changing the path constants at the bottom of PhyloPhind.py
