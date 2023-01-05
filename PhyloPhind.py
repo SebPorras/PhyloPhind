@@ -271,10 +271,9 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--threshold", type=float, 
             required=True, help="Jaccard threshold between 0 and 1")
     parser.add_argument("-m", "--min_seqs", type=int, 
-            default=0, help="filters groups that are outliers, defaults to 0")
+            default=0, help="minimum number of sequences required for a InterPro tag group to be considered, defaults to 0")
     parser.add_argument("-r", "--row_num", type=int, 
-            default=0, help="Choose group to filter on, sorted based on\
-            largest groups indexed at 0, defaults to zero(largest group)")
+            default=0, help="Choose group to filter on, sorted based on largest InterPro tag groups indexed at 0, defaults to zero(largest group)")
 
     args = parser.parse_args()
 
@@ -291,7 +290,9 @@ if __name__ == "__main__":
     print(f"{THRESHOLD=}")
     print(f"{ROW_NUM=}")
     print(f"{MIN_SEQS=}") 
+    
     main()
+    
     print(f"Filtered FASTA saved at: {FASTA}")
 
 
