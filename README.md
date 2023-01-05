@@ -40,7 +40,7 @@ export PYTHONPATH=/home/seb-porras/binfpy
 
 # Running the script 
 
-Place PhyloPhind.py in expat_bench directory 
+1. Place PhyloPhind.py in expat_bench directory 
 
 Now you can run the script like so 
 
@@ -48,6 +48,21 @@ Now you can run the script like so
 python PhyloPhind.py -e 3_5_2_6 -t 0.2 -m 1 -r 1
 ```
 
-Filtered FASTA will be placed in ./workflows/EC_NUM/files/EC_NUM_filt.fasta
+2. Filtered FASTA will be placed in ./workflows/EC_NUM/files/EC_NUM_filt.fasta
+
+3. For help, run
+
+'''
+python PhyloPhind.py --help
+'''
+
+# Changing location of output
+
+All paths can by changing the path constants at the bottom of PhyloPhind.py
+
+Important paths are:
+
+- WORKDIR: defines path from current directory to files in expat_bench 
+- FASTA: defines path for where filtered fasta file will be saved 
 
 
