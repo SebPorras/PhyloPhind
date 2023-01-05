@@ -65,10 +65,10 @@ Output:
   -> Jaccard threshold between 0 and 1
   
   - MIN_SEQS: -m, --min_seqs
-  -> filters groups that are outliers, defaults to 0
+  -> minimum number of sequences required for a InterPro tag group to be considered, defaults to 0
   
   - ROW_NUM: -r , --row_num 
-  -> Choose group to filter on, sorted based on largest groups indexed at 0, defaults to zero(largest group)
+  -> Choose group to filter on, sorted based on largest InterPro tag groups indexed at 0, defaults to zero(largest group)
 
 # Changing location of output
 
