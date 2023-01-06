@@ -45,15 +45,15 @@ export PYTHONPATH=/home/seb-porras/binfpy
 Now you can run the script like so 
 
 ```
-python PhyloPhind.py -e 3_5_2_6 -t 0.15 -m 0 -r 0
+python ./expat_bench/PhyloPhind.py -e 3_5_2_6 -t 0.15 -m 0 -r 0
 ```
 
-2. Filtered FASTA will be placed in ./workflows/EC_NUM/files/EC_NUM_filt.fasta
+2. Filtered FASTA will be placed in ./expat_bench/workflows/EC_NUM/files/EC_NUM_filt.fasta
 
 3. For help, run
 
 ```
-python PhyloPhind.py --help
+python ./expat_bench/PhyloPhind.py --help
 ```
 
 Output: 
@@ -72,7 +72,7 @@ Output:
   -> Choose group to filter on, sorted based on largest InterPro tag groups indexed at 0, defaults to zero(largest group)
 ```
 
-4. A log of the process will be saved to ./filtering_logs/EC_NUM_filtering_log.txt
+4. A log of the process will be saved to ./expat_bench/filtering_logs/EC_NUM_filtering_log.txt
 
 ```
 EC Group: 3_5_2_6 
