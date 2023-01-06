@@ -45,7 +45,7 @@ export PYTHONPATH=/home/seb-porras/binfpy
 Now you can run the script like so 
 
 ```
-python PhyloPhind.py -e 3_5_2_6 -t 0.2 -m 1 -r 1
+python PhyloPhind.py -e 3_5_2_6 -t 0.15 -m 0 -r 0
 ```
 
 2. Filtered FASTA will be placed in ./workflows/EC_NUM/files/EC_NUM_filt.fasta
@@ -78,8 +78,8 @@ Output:
 EC Group: 3_5_2_6 
 
 Threshold: 0.15 
-Min seqs: 0 
-Row num: 0
+Min seqs in group: 0 
+Row number of group: 0
 
 -Inital number of sequences 
 >129 
