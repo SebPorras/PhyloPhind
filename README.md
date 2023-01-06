@@ -78,8 +78,8 @@ Output:
 EC Group: 3_5_2_6 
 
 Threshold: 0.15 
-Min seqs: 1 
-Row num: 1
+Min seqs: 0 
+Row num: 0
 
 -Inital number of sequences 
 >129 
