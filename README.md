@@ -25,7 +25,7 @@ conda activate phylo_phind
 4. Install the required Python packages 
 
 ```
-pip install -r PhyloPhind/requirements.txt
+pip install -r ./PhyloPhind/requirements.txt
 ```
 
 5. Install binfpy 
